@@ -137,50 +137,6 @@ body main .shelf_w_sel .selector :first-child {
   border-bottom: #0156FF 2px solid;
   color: #000;
 }
-body main .card_item {
-  max-width: 234px;
-  height: 346px;
-}
-body main .card_item .card_container {
-  width: 185px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-body main .card_item .card_container .availability {
-  display: flex;
-  align-items: center;
-  font-size: 10px;
-  color: green;
-  margin-left: 25px;
-  margin-top: 7px;
-}
-body main .card_item .card_container .availability p {
-  margin-top: -2px;
-  margin-left: 6px;
-}
-body main .card_item .card_container .review {
-  display: flex;
-  align-items: center;
-  font-style: 12px;
-  color: #a2a6b0;
-}
-body main .card_item .card_container .review p {
-  margin-left: 10px;
-}
-body main .card_item .card_container .name_item {
-  font-size: 13px;
-  margin-top: 10px;
-}
-body main .card_item .card_container .price {
-  font-size: 18px;
-  margin: 15px 0;
-}
-body main .card_item .card_container .price .strikeout {
-  text-decoration: line-through;
-  color: #666666;
-  font-size: 14px;
-}
 body .brands {
   display: flex;
   justify-content: space-between;
@@ -319,4 +275,199 @@ body footer .newsletter .container .nav button {
   height: 50px;
   width: 150px;
   border-radius: 50px;
+}
+body .catalog_title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 56px;
+  margin-bottom: 70px;
+}
+body .catalog_flex {
+  display: flex;
+  margin-bottom: 160px;
+}
+body .catalog_flex .catalog_aside {
+  width: 234px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+body .catalog_flex .catalog_aside .aside_background {
+  background-color: #F5F7FF;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper {
+  padding: 20px 17px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .title_filter {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters button {
+  margin-top: 12px;
+  border: 2px solid #A2A6B0;
+  width: 100%;
+  height: 37px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #A2A6B0;
+  border-radius: 50px;
+  background: transparent;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .category_filter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 210%;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .category_filter .designation :nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .catalog_price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 210%;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .catalog_price .designation :nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .filter_color {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .filter_color :nth-child(1) {
+  margin-bottom: 15px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .filters .filter_complite button {
+  background-color: #0156FF;
+  color: #fff;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .catalog_brands {
+  display: flex;
+  flex-direction: column;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .catalog_brands .nav {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .catalog_brands .nav button {
+  border: 2px solid #A2A6B0;
+  border-radius: 50px;
+  height: 37px;
+  width: 100%;
+  background: transparent;
+  margin-top: 15px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .catalog_brands .logo_brands {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 6px;
+  margin-top: 32px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .wish_list {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+}
+body .catalog_flex .catalog_aside .aside_background .aside_wrapper .wish_list :last-child {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-top: 24px;
+}
+body .catalog_flex .catalog_main {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 5px;
+  width: 90%;
+}
+body .catalog_flex .catalog_main .page_selector {
+  width: 100%;
+}
+body .catalog_flex .catalog_main .page_selector ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 0 12px;
+  justify-content: center;
+  color: #A2A6B0;
+}
+body .catalog_flex .catalog_main .page_selector ul li {
+  width: 38px;
+  height: 38px;
+  border: 2px solid #A2A6B0;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+}
+body .catalog_flex .catalog_main .page_selector ul li:nth-child(2) {
+  border: none;
+  background-color: #F5F7FF;
+  color: #000;
+}
+body .card_item {
+  max-width: 234px;
+  height: 346px;
+}
+body .card_item .card_container {
+  width: 185px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+body .card_item .card_container .availability {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: green;
+  margin-left: 25px;
+  margin-top: 7px;
+}
+body .card_item .card_container .availability p {
+  margin-top: -2px;
+  margin-left: 6px;
+}
+body .card_item .card_container .review {
+  display: flex;
+  align-items: center;
+  font-style: 12px;
+  color: #a2a6b0;
+}
+body .card_item .card_container .review p {
+  margin-left: 10px;
+}
+body .card_item .card_container .name_item {
+  font-size: 13px;
+  margin-top: 10px;
+}
+body .card_item .card_container .price {
+  font-size: 18px;
+  margin: 15px 0;
+}
+body .card_item .card_container .price .strikeout {
+  text-decoration: line-through;
+  color: #666666;
+  font-size: 14px;
 }/*# sourceMappingURL=index.css.map */

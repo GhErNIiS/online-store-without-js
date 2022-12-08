@@ -13,6 +13,11 @@ body {
         cursor: pointer;
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -70,6 +75,10 @@ body {
                     :nth-child(n) {
                         margin-left: 25px;
                     }
+                    a {
+                        text-decoration: none;
+                        color: #020202;
+                    }
                 }
 
                 .header_nav {
@@ -92,6 +101,7 @@ body {
                 font-weight: 700;
             }
             a {
+                text-decoration: underline;
                 font-size: 13px;
                 color: #0156FF;
             }
@@ -124,6 +134,7 @@ body {
                     margin-bottom: -60px;
                 }
                 a {
+                    text-decoration: underline;
                     margin-bottom: 35px;
                     color: #fff;
                 }

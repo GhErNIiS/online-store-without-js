@@ -496,6 +496,106 @@ body {
 
         
     }
+
+
+
+    //Card page
+
+    .order_registration {
+        border-bottom: 1px solid #CACDD8;
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .item_p-selector {
+                padding: 40px 0;
+                display: flex;
+                color: #666666;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 21px;
+                gap: 0 30px;
+                text-align: start;
+                :first-child {
+                    color: #000;
+                    border-bottom: 2px solid #0156FF;
+                }
+            }
+            .order_nav {
+                button {
+                    height: 50px;
+                    width: 151px;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 700;
+                    background-color: #0156FF;
+                    border-radius: 50px;
+                    border: none;
+                    &:last-child {
+                        margin-left: 13px;
+                        background-color: #FFB800;
+                    }
+                }
+            }
+        }
+    }
+
+    .order_main {
+        display: flex;
+        margin-bottom: 80px;
+        .left {
+            width: 60%;
+            background-color: #F5F7FF;
+            display: flex;
+            justify-content: end;
+            min-height: 480px;
+            .inner_container {
+                width: 570px;
+                .product {
+                    position: relative;
+                    right: 110px;
+                    display: flex;
+                    flex-direction: column;
+                    .text_product {
+                        margin-top: 110px;
+                        font-size: 18px;
+                        font-weight: 300;
+                        line-height: 30px;
+                        :first-child {
+                            font-size: 32px;
+                            font-weight: 500;
+                            padding-bottom: 55px;
+                        }
+                    }
+                    .color_change {
+                        margin-top: 46px;
+                        display: flex;
+                        align-items: center;
+                        gap: 0 18px;
+                    }
+                    .sn_product {
+                        margin-top: 31px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-size: 12px;
+                        font-weight: 300;
+                        :first-child {
+                            font-weight: 700;
+                            a {
+                                font-weight: 400;
+                                color: #0156FF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            width: 40%;
+            min-height: 480px;
+        }
+    }
     
 
     //Advanced

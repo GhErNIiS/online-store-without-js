@@ -427,6 +427,98 @@ body .catalog_flex .catalog_main .page_selector ul li:nth-child(2) {
   background-color: #F5F7FF;
   color: #000;
 }
+body .order_registration {
+  border-bottom: 1px solid #CACDD8;
+}
+body .order_registration .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .order_registration .container .item_p-selector {
+  padding: 40px 0;
+  display: flex;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  gap: 0 30px;
+  text-align: start;
+}
+body .order_registration .container .item_p-selector :first-child {
+  color: #000;
+  border-bottom: 2px solid #0156FF;
+}
+body .order_registration .container .order_nav button {
+  height: 50px;
+  width: 151px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #0156FF;
+  border-radius: 50px;
+  border: none;
+}
+body .order_registration .container .order_nav button:last-child {
+  margin-left: 13px;
+  background-color: #FFB800;
+}
+body .order_main {
+  display: flex;
+  margin-bottom: 80px;
+}
+body .order_main .left {
+  width: 60%;
+  background-color: #F5F7FF;
+  display: flex;
+  justify-content: end;
+  min-height: 480px;
+}
+body .order_main .left .inner_container {
+  width: 570px;
+}
+body .order_main .left .inner_container .product {
+  position: relative;
+  right: 110px;
+  display: flex;
+  flex-direction: column;
+}
+body .order_main .left .inner_container .product .text_product {
+  margin-top: 110px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+body .order_main .left .inner_container .product .text_product :first-child {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 55px;
+}
+body .order_main .left .inner_container .product .color_change {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  gap: 0 18px;
+}
+body .order_main .left .inner_container .product .sn_product {
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+body .order_main .left .inner_container .product .sn_product :first-child {
+  font-weight: 700;
+}
+body .order_main .left .inner_container .product .sn_product :first-child a {
+  font-weight: 400;
+  color: #0156FF;
+}
+body .order_main .right {
+  width: 40%;
+  min-height: 480px;
+}
 body .card_item {
   max-width: 234px;
   height: 346px;

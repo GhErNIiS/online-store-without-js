@@ -598,6 +598,109 @@ body {
     }
     
 
+    //Login page
+
+    .login_main {
+        margin-bottom: 80px;
+        .container {
+            .login_title {
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 48px;
+                margin-top: 58px;
+            }
+
+            .login_form {
+                margin-top: 21px;
+                display: flex;
+                justify-content: space-around;
+                .sign_in-form {
+                    height: 415px;
+                    width: 564px;
+                    background-color: #F5F7FF;
+                    display: flex;  
+                    flex-direction: column;
+                    .inner_wrapper {
+                        width: 450px;
+                        margin: 0 auto;
+                        .form_content {
+                            margin-top: 43px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 23px 0;
+                            :first-child {
+                                font-size: 18px;
+                            }
+                            :nth-child(2) {
+                                font-weight: 400;   
+                            }
+                            input {
+                                padding-left: 14px;
+                                margin-top: -15px;
+                                height: 50px;
+                                width: 100%;
+                                border-radius: 4px;
+                                border: 2px solid #a2a6b0;
+                            }
+                        }
+                        .sign_in-nav {
+                            margin-top: 30px;
+                            color: #0156FF;
+                            button {
+                                height: 50px;
+                                width: 151px;
+                                background-color: #0156FF;
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #fff;
+                                border-radius: 50px;
+                                border: none;
+                            }
+                            :last-child {
+                                margin-left: 23px;
+                            }
+                        }
+                    }
+                }
+                .sign_up-form {
+                    height: 415px;
+                    width: 564px;
+                    background-color: #F5F7FF;
+                    .inner_wrapper {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 21px 0;
+                        width: 450px;
+                        margin: 43px auto;
+                        font-size: 14px;
+                        font-weight: 300;
+                        justify-content: start;
+                        p:first-child {
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                        ul {
+                            padding-left: 12px;
+                        }
+                        button {
+                            height: 50px;
+                            width: 208px;
+                            background-color: #0156FF;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #fff;
+                            border-radius: 50px;
+                            border: none;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
     //Advanced
 
     .card_item {

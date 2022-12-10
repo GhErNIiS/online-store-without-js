@@ -643,7 +643,6 @@ body .shop_main .container .block_shop .left .item_check .buy_card .inner_wrappe
   display: flex;
   height: 120px;
   align-items: flex-start;
-  border: 1px solid red;
   justify-content: space-between;
 }
 body .shop_main .container .block_shop .left .item_check .buy_card .inner_wrapper .name_product {

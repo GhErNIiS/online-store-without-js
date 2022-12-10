@@ -615,6 +615,125 @@ body .login_main .container .login_form .sign_up-form .inner_wrapper button {
   border-radius: 50px;
   border: none;
 }
+body .shop_main .container .shop_title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 58px;
+}
+body .shop_main .container .block_shop {
+  display: flex;
+  justify-content: space-between;
+}
+body .shop_main .container .block_shop .left {
+  width: 60%;
+}
+body .shop_main .container .block_shop .left .item_check {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+}
+body .shop_main .container .block_shop .left .item_check .buy_card {
+  display: flex;
+  height: 140px;
+  border-top: 1px solid #CACDD8;
+  border-bottom: 1px solid #CACDD8;
+  align-items: center;
+}
+body .shop_main .container .block_shop .left .item_check .buy_card .inner_wrapper {
+  display: flex;
+  height: 120px;
+  align-items: flex-start;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+body .shop_main .container .block_shop .left .item_check .buy_card .inner_wrapper .name_product {
+  margin-top: 10px;
+  width: 60%;
+  font-size: 14px;
+}
+body .shop_main .container .block_shop .left .item_check .buy_card .inner_wrapper .price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+body .shop_main .container .block_shop .left .nav_btn {
+  margin-top: 25px;
+  display: flex;
+  gap: 0 7px;
+}
+body .shop_main .container .block_shop .left .nav_btn button {
+  height: 37px;
+  width: 200px;
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+}
+body .shop_main .container .block_shop .left .nav_btn button:first-child {
+  border: 2px solid #A2A6B0;
+  color: #A2A6B0;
+  background: transparent;
+}
+body .shop_main .container .block_shop .left .nav_btn button:last-child {
+  margin-left: 110px;
+}
+body .shop_main .container .block_shop .right {
+  margin-top: 21px;
+  width: 38%;
+  background-color: #F5F7FF;
+}
+body .shop_main .container .block_shop .right .inner_wrapper {
+  width: 385px;
+  margin: 25px auto;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+body .shop_main .container .block_shop .right .inner_wrapper :nth-child(1) {
+  font-size: 24px;
+  font-weight: 700;
+}
+body .shop_main .container .block_shop .right .inner_wrapper :nth-child(3) {
+  font-size: 14px;
+  color: #666666;
+}
+body .shop_main .container .block_shop .right .inner_wrapper .order_total {
+  border-top: 1px solid #a2a6b0;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+body .shop_main .container .block_shop .right .inner_wrapper .order_total :last-child {
+  font-size: 18px;
+}
+body .shop_main .container .block_shop .right .inner_wrapper .orange {
+  background-color: #FFB800;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .shop_main .container .block_shop .right .inner_wrapper button {
+  width: 100%;
+  height: 50px;
+  background-color: #0156FF;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+}
+body .shop_main .container .block_shop .right .inner_wrapper button:last-child {
+  border: 2px solid #A2A6B0;
+  color: #A2A6B0;
+  background: transparent;
+}
 body .card_item {
   max-width: 234px;
   height: 346px;
